@@ -10,9 +10,10 @@
 <body>
 <!--头部-->
    <div  id="header">
-       <div id="navItem">
-				<div class="moreProducts">更多产品</div>
-                <ul class="nav">
+	  <!--导航栏-->
+          <div id="navItem">
+		       <div class="moreProducts">更多产品</div>
+                       <ul class="nav">
 				  <li><a href="http://news.baidu.com" ><strong>新闻</strong></a></li>
 				  <li><a href="http://www.hao123.com" >hao123</a></li>
 				  <li><a href="http://map.baidu.com" ><strong>地图</strong></a></li>
@@ -22,18 +23,18 @@
 				  <li><a href="https://passport.baidu.com/v2/?login&tpl=mn&u=http%3A%2F%2Fwww.baidu.com%2F" >登录</a></li>
 				  <li><a id="setting" href="http://www.baidu.com/gaoji/preferences.html" >设置</a></li>
 		        </ul>	 
-		</div>
-		<!--鼠标移入显示设置栏目-->
-		<div id="settingBox">
+	 </div>
+	 <!--鼠标移入显示设置栏目-->
+	 <div id="settingBox">
 			  <ul >
 				  <li><a href="javascript:;">搜索设置</a></li>
 				  <li><a href="//www.baidu.com/gaoji/advanced.html">高级搜索</a></li>
 				  <li><a href="javascript:;">关闭预测</a></li>
 				  <li><a href="javascript:;">搜索历史</a></li>
 			  </ul>
-	    </div>
-		<!--鼠标移入显示更多产品-->	 
-		<div id="pro_detail">
+	 </div>
+	<!--鼠标移入显示更多产品-->	 
+	<div id="pro_detail">
 			 <ul>
 				 <li><span class="noPic">更多产品</span></li>
 				 <li><a href="http://www.nuomi.com/?cid=002540"><span class="bggitem1"></span>糯米</a></li>
@@ -44,12 +45,14 @@
 				 <li><a href="http://top.baidu.com"><span class="bggitem6"></span>风云榜</a></li>      			 
 			 </ul>
 			 <a href="//www.baidu.com/more/"><span class="more_pro">全部产品&gt&gt</span></a>	
-		</div>  
+	</div>  
    </div>
    
 <!--搜索引擎区域-->   
    <div  id="content">
-          <div class="img"><img src="images/bd_logo1.png" width="270" /></div> 
+                  <div class="img">
+			  <img src="images/bd_logo1.png" width="270" />
+	          </div> 
 		  <div class="searchWarp">
 				<div class="searchItem"> 
 						<span class="camera_pic"></span>
@@ -60,53 +63,56 @@
 				<div class="searchBox">	 			    
 				        <ul id="searchContent"></ul>
 				</div>				
-                <div class="dragPicWarp">
-						<div class="picArea">拖拽图片到这里
-							   <span class="addPic"></span>
-						</div>
-						<div class="upLoadPicWrap">
-							  <input type="file" class="upLoadPic" />
-							  <span class="upLogo"></span>
-							  <span class="fontDisplay">本地上传图片</span> 
-						</div>
-						<span class="escPic"></span>
+                                <div class="dragPicWarp">
+				  	<div class="picArea">
+						<span>拖拽图片到这里</span>
+						<span class="addPic"></span>
+					</div>
+					<div class="upLoadPicWrap">
+						<input type="file" class="upLoadPic" />
+						<span class="upLogo"></span>
+						<span class="fontDisplay">本地上传图片</span> 
+					</div>
+					<span class="escPic"></span>
 				</div>   				
 		  </div> 	  
    </div>
    
 <!--尾部信息-->     
    <div id="footer">
-        <div class="img"><img src="images/qr_code.png" width="60" /></div>
-		<p id="qr_desc"><strong>手机百度</strong></p>
-		<div class="detail_warp"> 
-			 <p id="detail_item"> 	
-				<a href="//www.baidu.com/cache/sethelp/help.html" >把百度设为首页</a>
-				<a href="http://home.baidu.com" >关于百度</a>
-				<a href="http://ir.baidu.com" >About Baidu</a>
-				<a href="http://e.baidu.com/?refer=888" >百度推广</a>
-			 </p>
-			 <p id="copyright">
-		         <span>©2017 Baidu</span>
-				 <a href="http://www.baidu.com/duty/" >使用百度前必读</a>
-				 <a href="http://jianyi.baidu.com/" >意见反馈</a>
-				 <span>京ICP证030173号</span> 
-				 <img src="images/icon1.ico"  />
-				 <span>&nbsp&nbsp&nbsp</span> 
-				 <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11000002000001" >京公网安备11000002000001号</a>
-				 <img src="images/icon2.ico"  />
-		     </p>
-		</div>
+        <div class="img">
+		<img src="images/qr_code.png" width="60" />
+	</div>
+	<p id="qr_desc"><strong>手机百度</strong></p>
+	<div class="detail_warp"> 
+		 <p id="detail_item"> 	
+			<a href="//www.baidu.com/cache/sethelp/help.html" >把百度设为首页</a>
+			<a href="http://home.baidu.com" >关于百度</a>
+			<a href="http://ir.baidu.com" >About Baidu</a>
+			<a href="http://e.baidu.com/?refer=888" >百度推广</a>
+		 </p>
+		 <p id="copyright">
+		 	<span>©2017 Baidu</span>
+		        <a href="http://www.baidu.com/duty/" >使用百度前必读</a>
+			<a href="http://jianyi.baidu.com/" >意见反馈</a>
+			<span>京ICP证030173号</span> 
+			<img src="images/icon1.ico"  />
+			<span>&nbsp&nbsp&nbsp</span> 
+			<a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11000002000001" >京公网安备11000002000001号</a>
+			<img src="images/icon2.ico"  />
+		 </p>
+	</div>
     </div>
 
-	<script src="js/search.js"></script>
-	<script src="js/picarea.js"></script>
-	<script src="js/main.js"></script>
-	<script>
-		var oCon=document.getElementById("content");
-		var searchBox=document.getElementsByClassName('searchBox')[0];
-		var searchBtn=document.getElementsByClassName('searchBtn')[0];	
-		window.onload=mainJS();
+<script src="js/search.js"></script>
+<script src="js/picarea.js"></script>
+<script src="js/main.js"></script>
+<script>
+	var oCon=document.getElementById("content");
+	var searchBox=document.getElementsByClassName('searchBox')[0];
+	var searchBtn=document.getElementsByClassName('searchBtn')[0];	
+	window.onload=mainJS();
 			 
-	</script>
+</script>
 </body>
 </html>
