@@ -22,7 +22,7 @@ body { font-size:13px; font-family:"微软雅黑"; }
 
 /*header*/
 /*导航菜单*/
-#navItem{padding:20px;}
+#navItem{padding-top:20px;padding-right:10px;padding-left:200px;}
 .moreProducts{
 	width:60px;
 	height:24px;
@@ -35,8 +35,8 @@ body { font-size:13px; font-family:"微软雅黑"; }
 	line-height:24px;
 	}
 .nav{
-	width:390px;
-	height:17px;
+	 width:470px; 
+	/* height:17px; */
 	float:right;
 	}
 .nav>li{
@@ -52,13 +52,12 @@ body { font-size:13px; font-family:"微软雅黑"; }
 /*设置菜单*/	   
 #settingBox{
 	position:absolute;
-	right:80px;
+	right:75px;
 	top:15px;
 	padding-top:30px;
 	width:70px;
 	height:98px;
 	display:none;
-	
 	}
 #settingBox:before{
 	position:absolute;
@@ -121,19 +120,52 @@ body { font-size:13px; font-family:"微软雅黑"; }
 	text-decoration:underline;
 	}	
  /*可优化*/
-.noPic{position:absolute;left:20px;top:48px;height:36px;display:block;}
-.bggitem1{width:36px;height:36px;display:block; background:url(../images/bdbri_icons.png);margin:8px auto;}
-.bggitem2{width:36px;height:36px;display:block; background:url(../images/bdbri_icons.png) 36px;margin:8px auto;}
-.bggitem3{width:36px;height:36px;display:block; background:url(../images/bdbri_icons.png) 72px;margin:8px auto;}
-.bggitem4{width:36px;height:36px;display:block; background:url(../images/bdbri_icons.png) 108px;margin:8px auto;}
-.bggitem5{width:36px;height:36px;display:block; background:url(../images/bdbri_icons.png) 144px;margin:8px auto;}
-.bggitem6{width:36px;height:36px;display:block; background:url(../images/bdbri_icons.png) 180px;margin:8px auto;}
-.more_pro{display:block; margin:12px auto;text-align:center;color:#666;text-decoration:underline;}
-
+.noPic{
+	position:absolute;
+	left:20px;
+	top:48px;
+	height:36px;
+	display:block;
+	}
+	
+.bg{
+	width:36px;
+	height:36px;
+	display:block;
+	margin:8px auto;
+	background:url(../images/bdbri_icons.png);
+	}		
+.item1{	
+	background-position:0px;
+	}
+.item2{
+	background-position:36px;
+	}
+.item3{
+	background-position:72px;
+	}
+.item4{
+	background-position:108px;
+	}
+.item5{
+	background-position:144px;
+	}
+.item6{
+	background-position:180px;
+	}
+.more_pro{
+	display:block; 
+	margin:12px auto;
+	text-align:center;
+	color:#666;
+	text-decoration:underline;
+	}
 
 /*content*/
 .img img{
-	margin:0 auto;
+	position:relative;
+	left:50%;
+	margin-left:-135px;
 	margin-bottom:2px;
 	}
 .searchWarp{
@@ -308,10 +340,19 @@ body { font-size:13px; font-family:"微软雅黑"; }
   }
    
 /*footer*/
+.img_code{
+	z-index:-1;
+	position:relative;
+	left:50%;
+	margin-left:-30px;
+	margin-bottom:3px;
+}
 #qr_desc{
+	font-size:12px;
 	text-align:center;
 	color:#666;
-	}
+	}	
+	
 .detail_warp{
 	padding-top:20px;
 	}
@@ -332,7 +373,7 @@ body { font-size:13px; font-family:"微软雅黑"; }
 	}
 #copyright{
 	width:545px;
-	height:22px;
+	/* height:22px; */
 	margin:0 auto;
 	}
 #copyright *{
